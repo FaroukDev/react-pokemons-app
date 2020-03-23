@@ -24,7 +24,7 @@ const PokemonList: FunctionComponent = () => {
         </div>  
         </div> 
     </div>
-    );
+    ); 
 };
 
 export default PokemonList;
