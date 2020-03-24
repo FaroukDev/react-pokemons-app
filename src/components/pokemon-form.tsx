@@ -137,7 +137,7 @@ const PokemonForm: FunctionComponent<Props> = ({ pokemon }) => {
     // Après avoir passé les deux tests ci-dessus, on renvoie 'true', 
     // c'est-à-dire que l'on autorise l'utilisateur à cocher ou décocher un nouveau type.
     return true;
-  }
+  } 
 
 
 
