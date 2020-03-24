@@ -22,9 +22,9 @@ const PokemonList: FunctionComponent = () => {
             <PokemonCard key={pokemon.id} pokemon={pokemon} />
              ))}
         </div>  
-        </div> 
+        </div>  
     </div>
-    ); 
+    );  
 };
 
 export default PokemonList;

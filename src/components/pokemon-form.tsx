@@ -8,7 +8,7 @@ type Props = {
 };
 
 type Field = {
-  value: any,
+  value?: any,
   error?: string,
   isValid?: boolean
 }
