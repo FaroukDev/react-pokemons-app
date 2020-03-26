@@ -25,7 +25,7 @@ const PokemonList: FunctionComponent = () => {
             <PokemonCard key={pokemon.id} pokemon={pokemon} />
                 ))}
         </div> 
-            <Link className="btn-floating btn-large waves-effect waves-light green z-depth-3" style={{position: 'fixed' , bottom: '25px', right:'25px'}} to="/pokemons/add">
+            <Link className="btn-floating btn-large waves-effect waves-light red z-depth-3" style={{position: 'fixed' , bottom: '25px', right:'25px'}} to="/pokemons/add">
             <i className="material-icons">add</i>
             </Link>
         </div>  
