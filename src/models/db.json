@@ -112,6 +112,26 @@
       "types": [
         "Feu"
       ]
+    },
+    {
+      "id": 1585219668034,
+      "hp": 100,
+      "cp": 10,
+      "name": "Salamèche",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+      "types": [
+        "Feu"
+      ]
+    },
+    {
+      "id": 1585219820795,
+      "hp": 100,
+      "cp": 10,
+      "name": "New Pokemon",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/056.png",
+      "types": [
+        "Normal"
+      ]
     }
   ]
 }
