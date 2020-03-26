@@ -17,7 +17,7 @@ const PokemonList: FunctionComponent = () => {
 
     return (
     <div className="containerList">
-        <h5 className="center" style={{color:'#009688'}}>Bienvenue sur le Pokédex !</h5>
+       
         <div className="container">
         <div className="row">
         <PokemonSearch/>
@@ -25,7 +25,7 @@ const PokemonList: FunctionComponent = () => {
             <PokemonCard key={pokemon.id} pokemon={pokemon} />
                 ))}
         </div> 
-            <Link className="btn-floating btn-large waves-effect waves-light red z-depth-3" style={{position: 'fixed' , bottom: '25px', right:'25px'}} to="/pokemons/add">
+            <Link className="btn-floating btn-large waves-effect waves-light green z-depth-3" style={{position: 'fixed' , bottom: '25px', right:'25px'}} to="/pokemons/add">
             <i className="material-icons">add</i>
             </Link>
         </div>  
